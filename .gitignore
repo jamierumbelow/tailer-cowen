@@ -1,0 +1,5 @@
+.env
+.chroma
+data/marginal-revolution.json
+db/chroma
+data/txt/marginal-revolution/*.txt
