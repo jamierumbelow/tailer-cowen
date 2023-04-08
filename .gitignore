@@ -2,4 +2,6 @@
 .chroma
 data/marginal-revolution.json
 db/chroma
+chroma.tar.gz
+marginal-revolution.tar.gz
 data/txt/marginal-revolution/*.txt

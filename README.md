@@ -38,9 +38,17 @@ Loading sources will take a while (~7 minutes on my machine), but it will save t
 
 Enter your query, and TAIler Cowen will return a relevant answer based on the Marginal Revolution blog content.
 
-## Embeddings
+## Embeddings and data
 
-To help get started quickly, the embeddings are cached in the data/embeddings directory, as of 2023-04-08.
+To help get started quickly, and to save MR on bandwidth, I've generated embeddings for Marginal Revolution as of 2023-04-07.
+
+You can download the most recent embeddings on the [releases page](https://github.com/jamierumbelow/tailer-cowen/releases). Extract them from the tar:
+
+    tar -xvzf chroma.tar.gz
+
+The embeddings should be extracted to db/chroma/index. Make sure they're there before running the main script.
+
+Similarly, if you want to use the most recent data, you can download the most recent data from the releases page and extract it to the data/txt/marginal-revolution directory.
 
 ## Scrape sources
 
