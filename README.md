@@ -1,6 +1,6 @@
 # tAIler cowen
 
-!(https://github.com/jamierumbelow/tailer-cowen/blob/main/screenshot.png?raw=true)
+![https://github.com/jamierumbelow/tailer-cowen/blob/main/screenshot.png?raw=true]
 
 TAIler Cowen is an AI that queries the Marginal Revolution blog and answers your questions based on the content found there.
 
